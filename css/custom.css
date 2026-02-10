@@ -19,4 +19,9 @@ https://coolors.co/000000-0c1821-0e1b25-101d29-121f2d-142131-1b2a41-324a5f-7f8a9
 /************************/
 /******** FONTS *********/
 /************************/
-body, p, div 
+body,p,div{
+      font-family: "Sekuya", system-ui;
+}
+h1,h2,h3,h4,h5,h6{
+      font-family: "Boogaloo", sans-serif;
+}
