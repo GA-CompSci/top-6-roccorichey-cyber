@@ -25,3 +25,30 @@ body,p,div{
 h1,h2,h3,h4,h5,h6{
       font-family: "Boogaloo", sans-serif;
 }
+
+/************************/
+/******** HERO *********/
+/************************/
+
+header.masthead {
+      background: url(https://images7.alphacoders.com/422/thumb-1920-422148.jpg);
+      background-size: cover;
+}
+
+.masthead h1 {
+      color: white;
+      text-shadow: 20px 10px 10px black ;
+      font-size: 150px !important;
+}
+
+.masthead p {
+      color: rgb(255, 255, 255);
+      font-weight: 900;
+      text-shadow: 1px 1px 2px black;
+}
+
+.masthead .col-lg-8:first-of-type{
+      background: rgba(255, 255, 255, 0.517);
+      padding: 20px;
+      border-radius: 20px;
+ }
