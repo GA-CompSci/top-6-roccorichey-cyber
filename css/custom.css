@@ -52,3 +52,21 @@ header.masthead {
       padding: 20px;
       border-radius: 20px;
  }
+
+ /************************/
+/******** PORTFOLIO *********/
+/************************/
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background:rgba(0, 0, 0, 0.759);
+}
+
+/************************/
+/******** COLORS *********/
+/************************/
+.text-primary{
+      color:#121f2d !important;
+}
+
+.bg-primary {
+      background-color: #121f2d !important;
+}
