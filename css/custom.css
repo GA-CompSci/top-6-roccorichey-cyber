@@ -70,3 +70,14 @@ header.masthead {
 .bg-primary {
       background-color: #121f2d !important;
 }
+.btn-primary {
+   background-color: black;
+   
+}
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #000000;
+    opacity: 1;
+}
