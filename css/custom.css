@@ -20,10 +20,10 @@ https://coolors.co/000000-0c1821-0e1b25-101d29-121f2d-142131-1b2a41-324a5f-7f8a9
 /******** FONTS *********/
 /************************/
 body,p,div{
-      font-family: "Sekuya", system-ui;
+      font-family: "Boogaloo", sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-      font-family: "Boogaloo", sans-serif;
+     font-family: "Sekuya", system-ui; 
 }
 
 /************************/
@@ -31,27 +31,42 @@ h1,h2,h3,h4,h5,h6{
 /************************/
 
 header.masthead {
-      background: url(https://images7.alphacoders.com/422/thumb-1920-422148.jpg);
-      background-size: cover;
+    background: url(https://images7.alphacoders.com/422/thumb-1920-422148.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+header.masthead::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
 }
 
 .masthead h1 {
-      color: white;
-      text-shadow: 20px 10px 10px black ;
-      font-size: 150px !important;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    font-size: 90px !important;
+    position: relative;
+    z-index: 1;
 }
 
 .masthead p {
-      color: rgb(255, 255, 255);
-      font-weight: 900;
-      text-shadow: 1px 1px 2px black;
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
 }
 
-.masthead .col-lg-8:first-of-type{
-      background: rgba(255, 255, 255, 0.517);
-      padding: 20px;
-      border-radius: 20px;
- }
+.masthead .col-lg-8 {
+    background: none;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
 
  /************************/
 /******** PORTFOLIO *********/
@@ -80,4 +95,17 @@ hr.divider {
     margin: 1.5rem auto;
     background-color: #000000;
     opacity: 1;
+}
+
+.btn-primary{
+      background-color: #ffffff;
+      color: #000000;
+
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #040923;
+    text-decoration: underline;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #000000 !important;
 }
